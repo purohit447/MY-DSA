@@ -16,7 +16,7 @@
 // source code: 
 #include<iostream>
 using namespace std;
-class node    //declararion of user-define data type;
+class node    //declarartion of user-define data type;
 { 
 public:
   int data;
@@ -29,7 +29,7 @@ public:
   }
 };
 
-void tail(node* &head,int val)  // insert elements at tail of a link list;
+void tail(node* &head,int val)  // insert elements at tail of a linked list;
 {
   node* n = new node(val); 
 
@@ -47,7 +47,7 @@ void tail(node* &head,int val)  // insert elements at tail of a link list;
   temp->next=n;
 }
 
-void display(node* head) //printing an link list
+void display(node* head) //printing a link list
 {
   node* temp=head;
   while(temp!=NULL)
@@ -97,7 +97,7 @@ void del(node* &head, int n) // delete any linked node by value;
     karan=karan->next;
   }
   node* deleq=karan->next; // deleq is a node pointer that will terminate the memory later;
-  karan->next=karan->next->next; // at this point the paticular linked node has become inaccessible;
+  karan->next=karan->next->next; // at this point the particular linked node has became inaccessible;
   delete deleq;
 }
 
