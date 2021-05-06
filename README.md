@@ -1,3 +1,3 @@
 # MY-DSA 
-<h3>by - Karan Purohit</h3> <br>
+<strong>by - Karan Purohit</strong> <br>
 A place to learn data structures with fun.
