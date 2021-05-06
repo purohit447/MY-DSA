@@ -151,7 +151,7 @@ int main()
   del(head,4); // delete node with value 4;      result(7->6->9->NULL);
   top_del(head); // delete head value;        result(6->9->NULL);
 
-  ins_ran(head,8,2); // inserted at 3 position on a list;    result(6->8->9->NULL);
+  ins_ran(head,8,2); // inserting 8 at 2nd position on a list;    result(6->8->9->NULL);
 
   node* new_head= recv(head); // reversing list;      result(9->8->6->NULL);      
   
