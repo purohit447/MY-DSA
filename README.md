@@ -1,3 +1,3 @@
 # MY-DSA 
-<h2>font color="blue">by - Karan Purohit</h2> <br>
+<h3>by - Karan Purohit</h3> <br>
 A place to learn data structures with fun.
