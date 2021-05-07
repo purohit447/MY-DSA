@@ -10,7 +10,7 @@
 // Insert Items (at Head, at tail, at Random)
 // Delete Items (at Head, at random, at Tail) 
 // Search Items (linear searching) a singly list can't access elements at random so binary/logrithmic search isn't possible; 
-// Reversed Linked List (iteratively and recusively)
+// Reversed Linked List (iteratively and recursively)
 // Clear/delete List (all data lost/erased) 
 
 // source code: 
