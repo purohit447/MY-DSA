@@ -138,7 +138,7 @@ void dele_list(node* &head) // for deleting the list;
 
 int main()
 {
-  //first node can also be defined in global scope;
+  //first node can also be defined in global scope to avoid sending head-parameter whenever needed;
   node* head=NULL; // initiating first node;     result(NULL);
 
   tail(head,4); // inserting at tail (corner case tail is head because head==null);     result(4->NULL);
