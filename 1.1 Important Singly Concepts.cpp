@@ -238,18 +238,18 @@ int main()
 	display(head_2); // display list before intersection   output : 8->4->3->NULL;
 
 	make_intersect(new_head,head_2,3);  // intersecting 2nd list with 1st at 3rd node; 
-    display(head_2); // display 2nd list after intersection    output : 8->4->3->3->4->5->6->7->NULL;
+    	display(head_2); // display 2nd list after intersection    output : 8->4->3->3->4->5->6->7->NULL;
 
-    if(intersect(head_2,new_head)!=0) cout<<"Inserting at node "<<intersect(head_2,new_head)<<endl; // checking for intersection;  
-    else cout<<"not intersecting\n";
+    	if(intersect(head_2,new_head)!=0) cout<<"Inserting at node "<<intersect(head_2,new_head)<<endl; // checking for intersection;  
+   	 else cout<<"not intersecting\n";
 
-    // output : Inserting at node 3;
+    	// output : Inserting at node 3;
 
-    display(new_head); // dispay list before changing nodes;   output :  1->2->3->4->5->6->7->NULL;
-    odd_then_even(new_head); // arranging even nodes after odd nodes;  
-    display(new_head); // display arranged list    output : 1->3->5->7->2->4->6->NULL;
+   	 display(new_head); // dispay list before changing nodes;   output :  1->2->3->4->5->6->7->NULL;
+   	 odd_then_even(new_head); // arranging even nodes after odd nodes;  
+   	 display(new_head); // display arranged list    output : 1->3->5->7->2->4->6->NULL;
 
-    return 0;
+  	 return 0;
 }
 
 
