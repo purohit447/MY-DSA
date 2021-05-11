@@ -9,7 +9,7 @@
 // Traversing (singly linked lists can't be traverse backwards) becasue of single pointers pointing unidirectionally;
 // Insert Items (at Head, at tail, at Random)
 // Delete Items (at Head, at random, at Tail) 
-// Search Items (linear searching) a singly list can't access elements at random so binary/logrithmic search isn't possible; 
+// Search Items (linear searching) a linked list can't access elements at random so binary/logrithmic search isn't efficient then linear search; 
 // Reversed Linked List (iteratively and recursively)
 // Clear/delete List (all data lost/erased) 
 
