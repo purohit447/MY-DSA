@@ -66,7 +66,9 @@ void in_ran(node* &head,int n,int pos)  // To insert at random positions;
     {
         temp=temp->next;
     }
+    temp->next->prev=val;
     val->next=temp->next;
+    val->prev=temp;
     temp->next=val;
 }
 
@@ -139,6 +141,8 @@ node* append(node* &head,int pos) // To append given nodes of linked list;
     
     new_tail->next=NULL;
     tail->next=head;
+    head->prev=tail;
+    new_head->prev=NULL;
    
     return new_head;
 
