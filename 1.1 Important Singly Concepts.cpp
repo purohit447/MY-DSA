@@ -13,6 +13,7 @@
 // Calculating length of liked list;
 // Making two list intersect at node K;
 // Checking intersection in linked lists;
+// Arrange even nodes after odd nodes;
 
 
 //Source Code 
