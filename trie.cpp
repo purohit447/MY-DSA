@@ -56,6 +56,22 @@ public:
     }
     return it->end;
   }
+  
+  bool prifix(string word)
+  {
+    node* it = root;
+    int index=0;
+    while(index<word.size())
+    {
+      if(it->next[word[index]-'a']==NULL)
+      {
+        return false;
+      }
+      it=it->next[word[index]-'a'];
+      index++;
+    }
+    return true;
+  }
 
 };
 
